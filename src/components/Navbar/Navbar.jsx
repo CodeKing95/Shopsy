@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/game.png";
+import Logo from "../../assets/star.jpg";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
@@ -13,22 +13,22 @@ const Menu = [
   },
   {
     id: 2,
-    name: "Playstation",
+    name: "Black Tea",
     link: "/#services",
   },
   {
     id: 3,
-    name: "Xbox",
+    name: "Cappuccino",
     link: "/#",
   },
   {
     id: 3,
-    name: "Nintendo",
+    name: "Latte",
     link: "/#",
   },
   {
     id: 3,
-    name: "Electronics",
+    name: "Hot Chocolate",
     link: "/#",
   },
 ];
@@ -60,7 +60,7 @@ const Navbar = ({ handleOrderPopup }) => {
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10" />
-              TechStar
+              coffeebucks
             </a>
           </div>
 

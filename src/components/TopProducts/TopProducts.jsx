@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from "../../assets/shirt/shirt.png";
+import Img1 from "../../assets/shirt/ps5.png";
 import Img2 from "../../assets/shirt/shirt2.png";
 import Img3 from "../../assets/shirt/shirt3.png";
 import { FaStar } from "react-icons/fa";
@@ -37,7 +37,7 @@ const TopProducts = ({ handleOrderPopup }) => {
             Top Rated Products for you
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Best Products
+            Best Tech Products in the world.
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
